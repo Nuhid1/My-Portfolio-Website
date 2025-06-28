@@ -1,0 +1,298 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: #708090;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  padding: 50px 50px;
+  background: linear-gradient(to left, #F5F5F5, #F5FFFA);
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #000;
+  color: #fff;
+}
+
+.profile-pic
+{
+  width: 200px;              
+  height: 200px;
+  border-radius: 50%;        
+  object-fit: cover;         
+  border: 3px solid #333;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  margin: 3%;         
+}
+
+.hero-text 
+{
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.social-icon 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 15px;
+  gap: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.github
+{
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.linkedin
+{
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.facebook
+{
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #00FFFF;
+}
+
+.contact-section {
+  padding: 60px 30px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #708090;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #556070;
+}
+
+.contact-info {
+  margin-top: 40px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.background_image
+{
+  background-image: url("../resources/background-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.upper 
+{
+  padding: 0.3%;
+  text-align: center;
+  font-size: 10%;
+  background-color: black;
+}
+
+.clock 
+{
+  padding: 1%;
+  font-family: Arial, sans-serif;
+  text-align: right;
+  margin-top: 1%;
+  background-color: #f5f5f5;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.date
+{
+  padding: 1%;
+  font-family: Arial, sans-serif;
+  text-align: right;
+  margin-top: 1%;
+  background-color: #f5f5f5;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.profile-contact
+{
+  justify-content: left;
+  width: 200px;              
+  height: 200px;
+  border-radius: 50%;        
+  object-fit: cover;         
+  border: 3px solid #333;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  margin: 3%;         
+}
+
+.hero-contact {
+  margin: 0.1%;
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  padding: 1px 30px;
+  background: linear-gradient(to left, #F5F5F5, #F5FFFA);
+  color: black;
+}
+
+.github:hover,
+.linkedin:hover,
+.facebook:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.home:hover,
+.contact:hover,
+.about:hover,
+.projects:hover
+ {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* ========== mobile screen layout ========== */
+@media (max-width: 768px) {
+  .profile-pic, .profile-contact {
+    width: 120px;
+    height: 120px;
+  }
+   .hero, .hero-contact {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-icon {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .hero,
+  .hero-contact {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .profile-pic,
+  .profile-contact {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+  }
+
+  .hero-text {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  .contact-section {
+    padding: 30px 15px;
+  }
+
+  .contact-section h2 {
+    font-size: 28px;
+  }
+
+  .contact-section p,
+  .contact-info {
+    font-size: 16px;
+  }
+
+  .social-icon {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .clock,
+  .date {
+    font-size: 16px;
+    text-align: center;
+  }
+}
