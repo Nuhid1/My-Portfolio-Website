@@ -2,8 +2,6 @@
 
 Welcome to my personal portfolio website built with **HTML**, **CSS**, and **JavaScript**. This project showcases who I am, what I do, and what I've built so far as a future full stack developer, software engineer, and tech entrepreneur.
 
-![Screenshot](resources/portfolio-preview.png)
-
 ---
 
 ## 🚀 Features
@@ -71,7 +69,7 @@ I’m passionate about solving real-world problems with code and continuously le
 
 ## 🔗 Live Demo
 
-🌐 **[Click here to view live website](https://nuhid1.github.io/your-portfolio-link)**  
+🌐 **[Click here to view live website](https://nuhid1.github.io/My-Portfolio-Website/contact.html)**  
 
 ---
 
