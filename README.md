@@ -72,7 +72,6 @@ I’m passionate about solving real-world problems with code and continuously le
 ## 🔗 Live Demo
 
 🌐 **[Click here to view live website](https://nuhid1.github.io/your-portfolio-link)**  
-*(Replace this with your actual GitHub Pages link after deployment)*
 
 ---
 
