@@ -28,7 +28,7 @@ Welcome to my personal portfolio website built with **HTML**, **CSS**, and **Jav
 ---
 
 ## 📁 Folder Structure
-
+```
 ├── home.html / index.html
 ├── about.html
 ├── projects.html
@@ -43,7 +43,7 @@ Welcome to my personal portfolio website built with **HTML**, **CSS**, and **Jav
 │ ├── github icon.png
 │ ├── linkedin icon.png
 │ └── background-pic.jpg
-
+```
 
 ---
 
