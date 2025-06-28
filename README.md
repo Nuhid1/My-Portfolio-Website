@@ -73,7 +73,3 @@ I’m passionate about solving real-world problems with code and continuously le
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots below once your site is deployed.
-
